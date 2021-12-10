@@ -22,6 +22,6 @@ include_directories(3rd/glad/include)
 # glm
 include_directories(3rd/glm)
 
-set(SOURCE_FILES src/main.cpp ${GLAD_SRC})
+set(SOURCE_FILES src/main.cpp src/shader.h ${GLAD_SRC})
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 target_link_libraries(${PROJECT_NAME} ${LIBS})
