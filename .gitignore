@@ -2,5 +2,4 @@
 .vscode/
 build/
 bin/
-src/*
-src/main.cpp
+src/
